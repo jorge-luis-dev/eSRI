@@ -1,0 +1,26 @@
+--------------------------------------------------------
+--  DDL for Table SRI_INFORMANTE
+--------------------------------------------------------
+
+  CREATE TABLE "SRI_INFORMANTE" 
+   (	"TIPOIDINFORMANTE" VARCHAR2(10 BYTE) DEFAULT 'R', 
+	"IDINFORMANTE" VARCHAR2(20 BYTE), 
+	"RAZONSOCIAL" VARCHAR2(100 BYTE), 
+	"CODIGOOPERATIVO" VARCHAR2(10 BYTE) DEFAULT 'IVA'
+   ) TABLESPACE "DATOS" ;
+--------------------------------------------------------
+--  DDL for Index PK_SRI_INFORMANTE
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PK_SRI_INFORMANTE" ON "SRI_INFORMANTE" ("IDINFORMANTE") 
+   TABLESPACE "INDICES" ;
+--------------------------------------------------------
+--  Constraints for Table SRI_INFORMANTE
+--------------------------------------------------------
+
+  ALTER TABLE "SRI_INFORMANTE" MODIFY ("CODIGOOPERATIVO" NOT NULL ENABLE);
+  ALTER TABLE "SRI_INFORMANTE" ADD CONSTRAINT "PK_SRI_INFORMANTE" PRIMARY KEY ("IDINFORMANTE")
+  USING INDEX   TABLESPACE "INDICES"  ENABLE;
+  ALTER TABLE "SRI_INFORMANTE" MODIFY ("RAZONSOCIAL" NOT NULL ENABLE);
+  ALTER TABLE "SRI_INFORMANTE" MODIFY ("IDINFORMANTE" NOT NULL ENABLE);
+  ALTER TABLE "SRI_INFORMANTE" MODIFY ("TIPOIDINFORMANTE" NOT NULL ENABLE);

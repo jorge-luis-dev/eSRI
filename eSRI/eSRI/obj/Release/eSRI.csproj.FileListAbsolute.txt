@@ -16,3 +16,13 @@ A:\eSRI\eSRI\eSRI\obj\Release\eSRI.csprojResolveAssemblyReference.cache
 A:\eSRI\eSRI\eSRI\obj\Release\eSRI.Main.resources
 A:\eSRI\eSRI\eSRI\obj\Release\eSRI.Properties.Resources.resources
 A:\eSRI\eSRI\eSRI\obj\Release\eSRI.csproj.GenerateResource.Cache
+G:\eSRI\eSRI\eSRI\bin\Release\eSRI.exe.config
+G:\eSRI\eSRI\eSRI\bin\Release\eSRI.exe
+G:\eSRI\eSRI\eSRI\bin\Release\eSRI.pdb
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.csprojResolveAssemblyReference.cache
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.Main.resources
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.Properties.Resources.resources
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.csproj.GenerateResource.Cache
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.csproj.CoreCompileInputs.cache
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.exe
+G:\eSRI\eSRI\eSRI\obj\Release\eSRI.pdb
