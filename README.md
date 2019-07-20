@@ -26,6 +26,7 @@
 [sri]
 envFile=default.env
 form=sri_detalle_compra.fmx
+imageBase=DocumentBase
 webUtilArchive=frmwebutil.jar,jacob.jar
 WebUtilLogging=off
 WebUtilLoggingDetail=normal
