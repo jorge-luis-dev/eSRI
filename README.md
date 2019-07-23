@@ -47,6 +47,22 @@ separateFrame=true
 userid=sri/s@xe
 pageTitle=eSRI ATS Ecuador
 ```
+
+```
+[roteg]
+envFile=default.env
+form=roteg.fmx
+imageBase=DocumentBase
+baseHTML=base.htm
+baseHTMLjinitiator=basejpi.htm
+baseHTMLjpi=basejpi.htm
+archive=frmall.jar
+lookAndFeel=oracle
+width=100%
+height=100%
+separateFrame=true
+pageTitle=Roteg
+```
 7. Iniciar servidor Oracle Reports
 ```
 rwserver server=server_name
