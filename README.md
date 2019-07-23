@@ -47,6 +47,10 @@ separateFrame=true
 userid=sri/s@xe
 pageTitle=eSRI ATS Ecuador
 ```
+7. Iniciar servidor Oracle Reports
+```
+rwserver server=server_name
+```
 6. En el archivo tnsnames.ora, en C:\ods\network\ADMIN, añadir.
 ```
 xe = 
