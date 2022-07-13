@@ -1,6 +1,9 @@
 # Aplicación para generar los ATS SRI Ecuador
 
 ## Oracle Forms 10g
+
+NLS_LANG = SPANISH_SPAIN.WE8MSWIN1252
+
 ### Configuración
 1. Añadir en el archivo orion-web.xml, en C:\ods\j2ee\DevSuite\application-deployments\forms\formsweb.
    ```   
